@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Tienda</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <figure>
+            <img src="./assets/imgs/logo_sn-removebg-preview.png" alt="la bodeguita" />
+          </figure>
+          <h1 class="roboto-bold">LA BODEGUITA</h1>
+        </div>
+        <div class="desktop">
+          <ul>
+            <li class="roboto-bold">Inicio</li>
+            <li class="roboto-bold">Catálogo</li>
+            <li class="roboto-bold">Ofertas</li>
+            <li class="roboto-bold">Contacto</li>
+          </ul>
+        </div>
+        <i class="fas fa-bars"></i>
+      </nav>
+      <div class="filter">
+        <p class="open-sans">Ordenar por:</p>
+        <select name="select" class="open-sans">
+          <option value="precio" selected>Precio</option>
+          <option value="nombre">Nuevos</option>
+          <option value="fecha">De mayor a menor precio</option>
+        </select>
+      </div>
+      <div class="section">
+        <div class="card">
+          <figure>
+            <img src="./assets/imgs/backpack-buzz-lightyear.jpg" alt="loungefly-buzz" />
+          </figure>
+          <p class="open-sans">Loungefly Buzz Lightyear</p>
+          <button class="open-sans">Ver más</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./assets/imgs/backpack-woody.jpg" alt="loungefly-woody" />
+          </figure>
+          <p class="open-sans">Loungefly Woody</p>
+          <button class="open-sans">Ver más</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./assets/imgs/backpack-cinderella.jpg" alt="loungefly-cinderella" />
+          </figure>
+          <p class="open-sans">Loungefly Cenicienta</p>
+          <button class="open-sans">Ver más</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./assets/imgs/backpack-disney-100.jpg" alt="loungefly-disney" />
+          </figure>
+          <p class="open-sans">Loungefly Disney 100 años</p>
+          <button class="open-sans">Ver más</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./assets/imgs/backpack-minnie-ranaway-railway.jpg" alt="loungefly-runaway" />
+          </figure>
+          <p class="open-sans">Loungefly Minnie & Mickey</p>
+          <button class="open-sans">Ver más</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="./assets/imgs/backpack-starwars.jpg" alt="loungefly-star" />
+          </figure>
+          <p class="open-sans">Loungefly Star Wars</p>
+          <button class="open-sans">Ver más</button>
+        </div>
+      </div>
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
+      <footer>
+        <div class="social-media">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <p class="open-sans">Todos los derechos reservados</p>
+      </footer>
+    </div>
+  </body>
+</html>
